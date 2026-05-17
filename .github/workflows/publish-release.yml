@@ -20,6 +20,6 @@ jobs:
         uses: home-assistant/builder@master
         with:
           args: |
-            --armhf --armv7 --aarch64 \
+            --armv7 --aarch64 \
             --target /data \
             --docker-hub aaronjamt
