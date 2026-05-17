@@ -3,7 +3,7 @@
   "version": "0.3",
   "slug": "pi_cec",
   "description": "Raspberry Pi HTTP CEC server",
-  "url": "https://github.com/samueltardieu/homeassistant-addon-pi-cec",
+  "url": "https://github.com/aaronjamt/homeassistant-addon-pi-cec",
   "arch": [ "armhf", "armv7" ],
   "startup": "services",
   "boot": "auto",
@@ -18,6 +18,6 @@
     "9526/tcp": "TCP socket for outside communication (not required)"
   },
   "devices": ["/dev/vchiq"],
-  "image": "rfc1149/{arch}-addon-pi_cec",
+  "image": "aaronjamt/{arch}-addon-pi_cec",
   "panel_icon": "mdi:video-input-hdmi"
 }

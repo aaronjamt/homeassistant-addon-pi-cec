@@ -1,4 +1,4 @@
-# Raspberry Pi CEC server add-on
+# Raspberry Pi CEC server add-on (forked from https://github.com/samueltardieu/homeassistant-addon-pi-cec/)
 
 Starting from [HomeAssistant](https://www.home-assistant.io) 2021.7.0, the CEC
 libraries included in HomeAssistant do no longer support CEC interfaces that are
@@ -11,7 +11,7 @@ Raspberry Pi hardware interface.
 
 ## Configuration
 
-First, enable the `https://github.com/samueltardieu/homeassistant-addons` repository in
+First, enable the `https://github.com/aaronjamt/homeassistant-addons` repository in
 the "Addons" configuration section of Home Assistant.
 
 After enabling this add-on and configuring it
@@ -28,7 +28,7 @@ with the integration commands.
 ## Notes
 
 For the curious, `58c14403` is the [SHA-1](https://en.wikipedia.org/wiki/SHA-1) hash
-of the string `https://github.com/samueltardieu/homeassistant-addons` and is computed
+of the string `https://github.com/aaronjamt/homeassistant-addons` and is computed
 from the repository name by HomeAssistant.
 
 The icon is part of [iconscount display icon](https://iconscout.com/icon/display-171) collection.
