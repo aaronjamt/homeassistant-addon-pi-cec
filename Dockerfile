@@ -35,7 +35,6 @@ FROM $BUILD_FROM
 ARG PYTHON_VERSION
 ARG LIBCEC6_VERSION
 RUN apk add --no-cache raspberrypi python3 p8-platform py3-pip eudev-libs
-RUN echo /lib:/usr/local/lib:/usr/lib:/opt/vc/lib > /etc/ld-musl-armhf.path
 RUN echo /lib:/usr/local/lib:/usr/lib:/opt/vc/lib > /etc/ld-musl-aarch64.path
 RUN echo cec > "/usr/lib/python$PYTHON_VERSION/site-packages/cec.pth"
 COPY --from=builder /usr/lib/python$PYTHON_VERSION/site-packages/cec.py /usr/lib/python$PYTHON_VERSION/site-packages/
