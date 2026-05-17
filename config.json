@@ -4,7 +4,7 @@
   "slug": "pi_cec",
   "description": "Raspberry Pi HTTP CEC server",
   "url": "https://github.com/aaronjamt/homeassistant-addon-pi-cec",
-  "arch": [ "aarch64" ],
+  "arch": [ "armv7", "aarch64" ],
   "startup": "services",
   "boot": "auto",
   "watchdog": "tcp://[HOST]:[PORT:9526]",
