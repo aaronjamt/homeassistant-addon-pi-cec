@@ -16,5 +16,5 @@ jobs:
         with:
           args: |
             --test \
-            --armhf --armv7 \
+            --armhf --armv7 --aarch64 \
             --target /data \
